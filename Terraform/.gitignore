@@ -1,0 +1,28 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Terraform lock file (optional but recommended)
+**/.terraform.lock.hcl
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Shell temp files
+*.swp
+*.bak
